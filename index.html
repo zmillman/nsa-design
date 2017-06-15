@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+
+  </head>
+  <body>
+    <video width="600" height="300" loop autoplay style="position: absolute; top: 20%; left: 5%; z-index: 500">
+      <source src="https://www.dropbox.com/s/c8nhhv2f0497406/shhhhhh1.mp4.mp4?dl=1" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <a-scene>
+      <a-assets>
+        <video id="video" src="https://ucarecdn.com/bcece0a8-86ce-460e-856b-40dac4875f15/"
+               autoplay loop crossorigin></video>
+        <!-- <video id="video" src="https://www.dropbox.com/s/c8nhhv2f0497406/shhhhhh1.mp4.mp4?dl=1"
+               autoplay loop crossorigin></video> -->
+      </a-assets>
+
+      <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane> -->
+      <a-sky>
+        <a-animation attribute="material.color"
+          from="#b784a7"
+          to="red" dur="1000"
+          direction="alternate"
+          repeat="indefinite">
+        </a-animation>
+      </a-sky>
+
+      <a-text value="Hello, we are the NSA!"
+        width="32" height="16" position="0 0 -10"
+        color="white"></a-text>
+      <a-text value="Hello, we are the NSA!"
+        width="32" height="16" position="0 0 -10.2"
+        color="black"></a-text>
+
+      <a-video src="#video"  width="32" height="16" position="0 0 -20" rotation="0 180 0"></a-video>
+      <a-video src="#video"  width="32" height="16" position="-30 0 -10" rotation="0 45 0"></a-video>
+      <a-video src="#video"  width="32" height="16" position="30 0 -10" rotation="0 -45 0"></a-video>
+
+      <a-entity position="4 7 -4">
+        <a-plane position="0 0 0" rotation="0 0 0" width="5" height="5" color="#7BC8A4"></a-plane>
+        <a-text value="hey how are you
+        hey man
+        can you hook me up with some morpine? (sic)
+        yeah how much u tryna get
+        uhhh not sure can you just give me like enough for a week i guess?
+        yeah np
+        how much is that
+        1st time customer deal: $5/mg
+        wow man thanks so how many mg is that gonna be?
+        literally a gallon my bro people need a lot of morphine to get through just one week
+        yeah thats super fair thanks man
+
+        [retrieved http://6xydbbfysubflwhw.onion @ 1497494131026]"
+          width="4" height="4" position="-2 0 0"
+          color="green"></a-text>
+        </a-entity>
+
+      <a-entity position="-7 7 -6" rotation="0 45 0">
+        <a-plane position="0 0 0" rotation="0 0 0" width="5" height="5" color="pink"></a-plane>
+        <a-text value="Hello. I’d like to request your services tonight.
+          heyyy cutie ;) you got it~~ what are you looking for babe?
+          I’d like to hire you to come over and eat ice cream.
+          oooo is that all baby?
+          Yes I just enjoy watching people eat ice cream.
+          yummmm what flavor sexy?
+          I’m a big fan of Ben and Jerry’s [REDACTED FLAVOR], will that do?
+          mmm you got it, i can’t wait ;)
+          Excellent. Come by [REDACTED ADDRESS] at [REDACTED TIME]
+          kk c u you then xoxo
+
+          [retrieved http://bptfp7py2wclht26.onion @ 1497494199005]"
+          width="4" height="4" position="-2 0 0"
+          color="maroon"></a-text>
+        </a-entity>
+
+      <a-entity position="10 4 0"  rotation="0 -50 0">
+        <a-plane position="0 0 0" rotation="0 0 0" width="5" height="5" color="lightblue"></a-plane>
+        <a-text value="HI HOW R U CAN U HOOK ME UP WITH SUM FIREARMS
+          Yeah what kind?
+          IM NOT SURE I JUST WANT GUNZZZZZ
+          Okay but I need to know what kind
+          PEW PEW PEW PEW PEW PEW PEW PEW PEW PEW
+          Are you going to take this seriously or not
+          NOTHING MATTERS :)
+
+          [retrieved http://csmania3ljzhig4p.onion @ 1497494239877]"
+          width="4" height="4" position="-2 0 0"
+          color="blue"></a-text>
+        </a-entity>
+    </a-scene>
+    <audio src="./nsa-music.mp3" autoplay="true" loop/>
+  </body>
+</html>
